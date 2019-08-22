@@ -1,0 +1,16 @@
+681c5LT_0.newinfo.withlengths.sorted.txt
+681c5LT_1.newinfo.withlengths.sorted.txt
+681c5LT_2.newinfo.withlengths.sorted.txt
+681c5LT_3.newinfo.withlengths.sorted.txt
+681c5LT_4.newinfo.withlengths.sorted.txt
+681c5LT_5.newinfo.withlengths.sorted.txt
+681c5LT_6.newinfo.withlengths.sorted.txt
+681c5LT_7.newinfo.withlengths.sorted.txt
+681c5LT_8.newinfo.withlengths.sorted.txt
+681c5LT_9.newinfo.withlengths.sorted.txt
+681c5LT_10.newinfo.withlengths.sorted.txt
+681c5LT_11.newinfo.withlengths.sorted.txt
+681c5LT_12.newinfo.withlengths.sorted.txt
+681c5LT_13.newinfo.withlengths.sorted.txt
+681c5LT_14.newinfo.withlengths.sorted.txt
+681c5LT_15.newinfo.withlengths.sorted.txt
