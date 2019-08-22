@@ -1,0 +1,2 @@
+# WEIRDCONNECTION
+generates the graph 
