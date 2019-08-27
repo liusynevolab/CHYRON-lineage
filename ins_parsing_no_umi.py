@@ -30,7 +30,7 @@ def writestuff(file, numA, numC, numG, numT,combinations,combcount):
 		file.write('\n')
 		i += 1
 
-lengthcount = int(input("Enter the lengthcount: "))
+lengthcount = int(input("Enter the lengthcount:(input 16 for default) "))
 if lengthcount> 16:
 	lengthcount = 16
 if lengthcount< 1:
