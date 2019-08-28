@@ -262,10 +262,7 @@ print(f"Final confidence of {round(norm.cdf(totalStd / len(final)) * 100,2)}%")
 distDF.to_csv(f'jaccard_darkgreenLT_C{str(COUNT_CUTOFF)}_L{str(LENGTH_CUTOFF[0])}-{str(LENGTH_CUTOFF[1])}_Recovery_{str(int(RECOVERY_EFFICIENCY*100))}.csv')
 z = hierarchy.linkage(distDF, 'average') ##there are a few clustering choices here. for UPGMA, a standard algorithm, use 'average' instead of 'ward'
 # plt.figure(figsize=(14,6),dpi=100)
-hierarchy.set_link_color_palette(['g', 'r', 'lime', 'c', 'm', 'y','b','tan'])
-dn = hierarchy.dendrogram(z, labels=distDF.index, leaf_rotation=90, color_threshold=1)
-
-
-
+hierarchy.set_link_color_palette(['k'])
+dn = hierarchy.dendrogram(z, labels=distDF.index, above_threshold_color='#bbbbbb', orientation='left')
 
 plt.show()
