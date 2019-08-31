@@ -1,5 +1,7 @@
 # WEIRDCONNECTION
 
+This runs with Python 3.7. All necessary software is included in Anaconda3.
+
 step by step guide for your best experience
 
 1. download everything in this folder
