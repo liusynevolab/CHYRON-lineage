@@ -126,23 +126,6 @@ def jaccard_calc(l1,l2):
         # print(a,b,c,d)
         return (a)/(a+b+c)
 
-def insertionFinder(wellPairs, vectors):
-        for pair in wellPairs:
-                with open(f"{pair[0]}_{pair[1]}_insertions.txt",'w') as file:
-                        insertions = vectors["wells"][pair[0]][0].intersection(vectors["wells"][pair[1]][0])
-                        for insertion in insertions:
-                                file.write(insertion+'\n')
-
-def nextLevelInsertionFinder(wellPairs2, vectors):
-        for pair in wellPairs2:
-                with open(f"{pair[0]}_{pair[1]}_{pair[2]}_{pair[3]}_insertions.txt",'w') as file:
-                        set1 = vectors["wells"][pair[0]][0].intersection(vectors["wells"][pair[1]][0])
-                        set2 = vectors["wells"][pair[2]][0].intersection(vectors["wells"][pair[3]][0])
-                        insertions = set1.intersection(set2)
-                        for insertion in insertions:
-                                file.write(insertion+'\n')
-
-
 # c =0
 # for ins in insDict:
 #       print(ins, insDict[ins])
