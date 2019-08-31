@@ -156,9 +156,6 @@ vectors = {}
 vectors["pool"] = [set(),[]]
 vectors["wells"] = {}
 
-group_1 = ["0","1","2","3","5","6","10","14"]
-group_2 = ["4","7","8","9","11","12","13","15"]
-
 for x in range(1,17):
         wells.append(f"well_{str(x)}")
         vectors["wells"][f"well_{str(x)}"] = [set(),[]]
@@ -171,15 +168,6 @@ print(vectors["wells"][f"well_{str(x)}"])
 # for _ in group_2:
 #       vectors["wells"][f"well_{_}"] = [set(),[]]
 #       wells.append(f"well_{_}")
-
-
-wellPairs = [('well_7','well_16'), ('well_1','well_10'), ('well_2','well_11'), ('well_4','well_9'),
-                        ('well_15','well_3'), ('well_12','well_14'), ('well_13','well_6'), ('well_8','well_5')]
-
-wellPairs_2 = [('well_7','well_16', 'well_4','well_9'), ('well_2','well_11', 'well_1','well_10'),
-                        ('well_15','well_3', 'well_12','well_14'), ('well_13','well_6', 'well_5','well_8')]
-
-
 
 for ins in insDict:
         if not ins == 'ROOT':
