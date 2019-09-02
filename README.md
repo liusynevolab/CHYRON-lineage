@@ -15,7 +15,7 @@ Step-by-step guide for your best experience:
 
 4. Program runs, generates a file called base_count_well.txt that records the sums of different single and dinucleotides in insertions. 
 
-5.Run the file jaccard.py
+5. Run the file jaccard.py
 
   (should look like this:
                           python3 jaccard.py)
