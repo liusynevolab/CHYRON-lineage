@@ -1,4 +1,4 @@
-# WEIRDCONNECTION
+# CHYRON-lineage
 
 This runs with Python 3.7. All necessary software is included in Anaconda3. Custom code was primarily written by Mason Schechter and Bijan Agahi, with substantial edits by Beide Liu.
 
