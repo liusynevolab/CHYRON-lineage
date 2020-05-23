@@ -11,7 +11,7 @@ Step-by-step guide for your best experience:
     (should look like this:
                             python3 ins_parsing_no_umi.py well_data.txt)
                             
-3. Enter how many letters of each insertion you want counted into the file. Enter 16 for default analysis including full-length insertions. For example, to generate the top panel of Figure 5D, you would type "3."
+3. Enter how many letters of each insertion you want counted into the file. Enter 16 for default analysis including full-length insertions. 
 
 4. Program runs, generates a file called base_count_well.txt that records the sums of different single and dinucleotides in insertions. 
 
